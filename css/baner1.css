@@ -1,0 +1,60 @@
+section{
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  top: 10vh;
+  background-image: linear-gradient(to top, rgba(48, 207, 208, 0.6) 0%, rgba(51, 8, 103, 0.6) 100%),url('../img/baner-1.jpg');
+  background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+  /*display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;*/
+}
+
+.info{
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info h1{
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+.info p{
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+.info span{
+  font-weight: normal;
+  margin-left: 3px;
+
+}
+
+.info a{
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  background: rgba(255, 0, 0,.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.info a:hover{
+  opacity: .8;
+  transform: scale(1.1);
+  transition: .5s ease;
+}
