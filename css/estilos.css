@@ -1,3 +1,16 @@
+/*Fonts Family*/
+/*font-family: 'pacificoregular';
+font-family: 'montserratsemibold';
+  font-family: 'montserratregular';
+font-family: 'montserratmedium';
+font-family: 'montserratlight';
+font-family: 'ralewaythin';
+font-family: 'ralewaysemibold';
+font-family: 'ralewayregular';
+font-family: 'ralewaymedium';
+font-family: 'ralewaylight';
+font-family: 'ralewayextralight';
+*/
 *{
   padding: 0;
   margin: 0;
@@ -11,7 +24,7 @@ body{
   min-height: 500vh;
   background:rgb(38, 37, 37);
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'ralewaymedium';
 }
 
 .btn-scroll{
