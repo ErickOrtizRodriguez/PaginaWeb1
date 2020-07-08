@@ -1,12 +1,12 @@
-section{
+.baner-1{
   position: relative;
   width: 100%;
-  height: 90vh;
-  top: 10vh;
+  height:100vh;
   background-image: linear-gradient(to top, rgba(48, 207, 208, 0.6) 0%, rgba(51, 8, 103, 0.6) 100%),url('../img/baner-1.jpg');
   background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
+  padding-top: 10vh;
   /*display: flex;
   align-items: center;
   flex-direction: column;
@@ -33,12 +33,12 @@ section{
 }
 
 .info p{
-  font-weight: lighter;
+  font-family: 'ralewayextralight';
   margin-bottom: 5px;
 }
 
 .info span{
-  font-weight: normal;
+  font-family: 'ralewaymedium';
   margin-left: 3px;
 
 }
@@ -47,14 +47,15 @@ section{
   display: block;
   margin-top: 5px;
   text-decoration: none;
-  background: rgba(255, 0, 0,.8);
+  background: rgba(255, 0, 0,.6);
   color: #fff;
   padding: 5px;
   border-radius: 5px;
+  font-family: 'montserratmedium';
 }
 
 .info a:hover{
-  opacity: .8;
+  background: rgba(255, 0, 0,.8);
   transform: scale(1.1);
   transition: .5s ease;
 }
