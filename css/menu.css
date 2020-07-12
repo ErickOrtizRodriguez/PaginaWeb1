@@ -76,8 +76,23 @@ header{
   font-size: 2em;
   padding: 10px;
   color: #fff;
+  transition: all .3s ease;
+  position: relative;
+
 }
 
-.menu a:hover{
-  color: rgb(185, 31, 245);
+.menu a::before{
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  width:0%;
+  background: red;
+  height: 2px;
+  bottom: 0;
+  transition: all 1s ease;
+}
+
+.menu a:hover::before{
+  width: 100%;
 }
