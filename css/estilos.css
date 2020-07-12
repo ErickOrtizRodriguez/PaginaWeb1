@@ -42,3 +42,8 @@ body{
   opacity: 1;
   transform: scale(1.1);
 }
+
+.contenedor-main{
+  width: 100%;
+  background: rgba(51, 8, 103, 0.6);
+}
