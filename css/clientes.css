@@ -1,0 +1,12 @@
+.ancla-clientes::before {
+  content: " " ;
+  display: block;
+  margin-top: -8vh;
+  height: 8vh;
+  visibility: hidden;
+
+}
+
+.clientes{
+  width: 100%;
+}
