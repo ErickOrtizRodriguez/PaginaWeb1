@@ -11,17 +11,33 @@
 }
 .equipo-cont{
   width: 100%;
-
   background: #ffffff;
   color: #000;
 }
 
+/*.equipo-cont .equipo-titulo{
+
+  position: relative;
+  margin-bottom: 10px;
+}*/
+
+/*.equipo-cont .equipo-titulo::before{
+  content: "";
+  position: absolute;
+  background: rgba(255, 0, 0,.8);
+  width: 200px;
+  height: 1px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+}*/
 .equipo-cont h1{
   color: #000;
   margin: 10px 0px 0px 0px;
-
   padding: 10px;
 }
+
 .container-team{
   width: 100%;
   display: flex;
@@ -95,7 +111,7 @@
 .team-info .team-link i{
   font-size: 1.3em;
   margin: 7px 5px;
-  color: #fff;
+  color: #c1bdbd;
 }
 
 .team-info .team-link i:hover{

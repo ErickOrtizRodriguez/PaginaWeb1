@@ -55,7 +55,32 @@ header{
   transform: translateY(-100%);
   z-index: 1000;
   font-family: 'ralewaythin';
+  font-size: .7em;
 }
+
+.social-link{
+  width: 20%;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.social-link i{
+  color: rgba(255, 0, 0, 0.49);
+
+}
+
+.menu .social-link i:hover{
+  color: rgba(255, 0, 0, 0.7);
+  transition: all .5s ease;
+  transform: scale(1.1);
+}
+
 
 .mostrar{
   transform: translateY(0);
@@ -81,7 +106,7 @@ header{
 
 }
 
-.menu a::before{
+.menu li a::before{
   content: "";
   position: absolute;
   display: block;
@@ -93,6 +118,6 @@ header{
   transition: all 1s ease;
 }
 
-.menu a:hover::before{
+.menu li a:hover::before{
   width: 100%;
 }
