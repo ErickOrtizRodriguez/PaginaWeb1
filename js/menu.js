@@ -5,6 +5,7 @@ let home = document.querySelector('.home');
 let servis = document.querySelector('.servis');
 let about = document.querySelector('.about');
 let contact = document.querySelector('.contact');
+let clientes = document.querySelector('.client');
 
 
 
@@ -36,6 +37,11 @@ about.addEventListener('click', function(){
 });
 
 contact.addEventListener('click', function(){
+  'use strict';
+  menu.classList.toggle('mostrar');
+});
+
+clientes.addEventListener('click', function(){
   'use strict';
   menu.classList.toggle('mostrar');
 });

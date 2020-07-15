@@ -1,4 +1,110 @@
-.contactos{
+.ancla-contacto::before {
+  content: " " ;
+  display: block;
+  margin-top: -8vh;
+  height: 8vh;
+  visibility: hidden;
+
+}
+
+.contacto{
   width: 100%;
-  height: 100vh;
+}
+
+.contacto .contacto-titulo{
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 10px;
+
+}
+.contacto .contacto-titulo .titulo-contac{
+  font-size: 2em;
+  margin-bottom:0px;
+}
+
+.contacto .contacto-titulo .texto-contacto{
+  font-size: .9em;
+  font-family: 'ralewayextralight';
+}
+
+.contacto .contacto-cont{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contacto .contacto-cont .contacto-form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+
+}
+
+.contacto .contacto-cont .contacto-datos{
+  background:#fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  width: 80%;
+  padding: 12px;
+  position: relative;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.contacto .contacto-cont .contacto-datos input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid silver;
+  font-size: 1em;
+}
+
+.contacto .contacto-cont .contacto-datos label{
+  position: absolute;
+  left: 7px;
+  pointer-events: none;
+  color: grey;
+  transition: all .5s ease;
+}
+
+.contacto .contacto-cont .contacto-datos input:focus ~  label,
+.contacto .contacto-cont .contacto-datos input:valid ~  label{
+  transform: translateY(-10px);
+  font-size: .7em;
+}
+
+.contacto .contacto-cont .contacto-form .contacto-texto{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+.contacto .contacto-cont .contacto-form .contacto-btn{
+
+}
+
+.contacto .contacto-cont .contacto-form .contacto-btn button{
+  display: block;
+  padding: 5px;
+  margin-top: -15px;
+  width: 100px;
+  border-radius: 5px;
+  background: rgba(255, 0, 0,.6);
+  color: #fff;
+  border: 0px;
+  font-family: 'montserratmedium',sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+.contacto .contacto-cont .contacto-form .contacto-btn button:hover{
+  background: rgba(255, 0, 0,.8);
+  transition: .5s ease;
 }
