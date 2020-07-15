@@ -9,4 +9,56 @@
 
 .clientes{
   width: 100%;
+  background:#ffffff;
+  color: #000;
+
+}
+
+.clientes .clientes-titulo{
+  color: rgba(255, 0, 0,.9);
+  text-align: center;
+  font-size: 2em;
+  display: block;
+  padding: 10px;
+}
+
+.clientes .clientes-cont{
+  color: #000;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.clientes .clientes-cont .clientes-info{
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0px;
+  text-align: center;
+  width: 30%;
+}
+
+.clientes .clientes-cont .clientes-info a{
+  text-decoration: none;
+  color: #000;
+  opacity: .6;
+}
+
+.clientes .clientes-cont .clientes-info i{
+  font-size: 3em;
+  color: rgb(102, 11, 87)
+}
+
+.clientes .clientes-cont .clientes-info p{
+  font-size: 1em;
+  color: rgba(255, 0, 0,.4);
+}
+.clientes .clientes-cont .clientes-info a:hover{
+  opacity: 1;
+  transition: all .5s;
 }
