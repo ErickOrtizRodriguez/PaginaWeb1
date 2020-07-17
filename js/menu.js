@@ -6,6 +6,9 @@ let servis = document.querySelector('.servis');
 let about = document.querySelector('.about');
 let contact = document.querySelector('.contact');
 let clientes = document.querySelector('.client');
+let links = document.querySelector('.link-click');
+let links1 = document.querySelector('.link-click1');
+let links2 = document.querySelector('.link-click2');
 
 
 
@@ -42,6 +45,21 @@ contact.addEventListener('click', function(){
 });
 
 clientes.addEventListener('click', function(){
+  'use strict';
+  menu.classList.toggle('mostrar');
+});
+
+links.addEventListener('click', function(){
+  'use strict';
+  menu.classList.toggle('mostrar');
+});
+
+links1.addEventListener('click', function(){
+  'use strict';
+  menu.classList.toggle('mostrar');
+});
+
+links2.addEventListener('click', function(){
   'use strict';
   menu.classList.toggle('mostrar');
 });
