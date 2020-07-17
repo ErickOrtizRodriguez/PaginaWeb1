@@ -21,7 +21,6 @@ html{
 }
 
 body{
-  min-height: 500vh;
   background:rgb(38, 37, 37);
   color: #fff;
   font-family: 'ralewaymedium';
