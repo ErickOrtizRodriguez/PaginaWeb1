@@ -1,8 +1,8 @@
 .ancla-contacto::before {
   content: " " ;
   display: block;
-  margin-top: -8vh;
-  height: 8vh;
+  margin-top: -9vh;
+  height: 9vh;
   visibility: hidden;
 
 }
@@ -86,11 +86,11 @@
   height: 100%;
   outline: none;
   border: none;
-  border-bottom: 1px solid silver;
+  border-bottom: 1px solid gray;
   font-size: 1em;
   background: transparent;
   bottom: 0px;
-  color: #c6c6c6;
+  color: gray;
 
 }
 

@@ -83,3 +83,28 @@
   font-family: 'ralewayextralight';
   margin-bottom: 7px;
 }
+
+@media screen and (min-width:446px) {
+  .info-servicios{
+    border: none;
+    box-shadow: none;
+    margin-bottom: 30px;
+
+  }
+}
+
+@media screen and (min-width:48px) {
+  .info-servicios .icon-servicios{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+  }
+
+  .info-servicios .icon-servicios i{
+
+
+      margin: 0px 10px;
+
+  }
+}

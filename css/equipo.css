@@ -118,3 +118,13 @@
   color: rgba(255, 0, 0,.8);
   transition: .5s;
 }
+
+
+@media screen and (min-width:1240px){
+  .team-info{
+    margin-bottom: 70px;
+  }
+
+
+
+}

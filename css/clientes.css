@@ -40,7 +40,8 @@
   flex-direction: column;
   margin: 10px 0px;
   text-align: center;
-  width: 30%;
+  width: 25%;
+
 }
 
 .clientes .clientes-cont .clientes-info a{
@@ -61,4 +62,31 @@
 .clientes .clientes-cont .clientes-info a:hover{
   opacity: 1;
   transition: all .5s;
+}
+
+@media screen and (min-width:728px){
+  .clientes{
+    margin-bottom: 30px;
+    height:400px;
+  }
+  .clientes .clientes-cont{
+    width: 80%;
+    margin: auto;
+
+  }
+
+  .clientes .clientes-cont .clientes-info{
+    width: 24%;
+  }
+
+  .clientes .clientes-cont .clientes-info i{
+    font-size: 5em;
+  }
+
+  .clientes .clientes-cont .clientes-info p{
+    font-size: 1.2em;
+
+  }
+
+
 }

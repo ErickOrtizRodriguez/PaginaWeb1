@@ -55,19 +55,6 @@
   position: relative;
 }
 
-/*.info a::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  background: transparent;
-  height: 100%;
-  border-radius: 5px;
-  border: 1px solid rgba(255, 0, 0,.6);
-}*/
-
 .info a:hover{
   background: rgba(255, 0, 0,.8);
   transform: scale(1.1);
