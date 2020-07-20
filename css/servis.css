@@ -93,7 +93,7 @@
   }
 }
 
-@media screen and (min-width:48px) {
+@media screen and (min-width:480px) {
   .info-servicios .icon-servicios{
     display: flex;
     justify-content:center;
@@ -102,8 +102,6 @@
   }
 
   .info-servicios .icon-servicios i{
-
-
       margin: 0px 10px;
 
   }

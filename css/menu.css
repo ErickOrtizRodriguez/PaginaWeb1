@@ -124,7 +124,7 @@ header{
 }
 
 
-@media screen and (min-width:728px) {
+@media screen and (min-width:720px) {
 
   .boton-menu{
     display: none;
@@ -167,7 +167,7 @@ header{
 
   .menu a{
     font-size: 1.5em;
-    top: 10px;
+    top:0px;
 
   }
 
