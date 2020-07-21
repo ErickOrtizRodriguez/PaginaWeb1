@@ -13,6 +13,7 @@
   width: 100%;
   background: #ffffff;
   color: #000;
+  overflow: hidden;
 }
 
 /*.equipo-cont .equipo-titulo{
